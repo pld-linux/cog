@@ -1,20 +1,20 @@
-diff -aurN cog-0.6.0.orig/cog.desktop cog-0.6.0/cog.desktop
---- cog-0.6.0.orig/cog.desktop	2003-02-23 00:03:31.000000000 +0100
-+++ cog-0.6.0/cog.desktop	2003-07-27 19:53:04.330146048 +0200
-@@ -1,9 +1,14 @@
+--- cog-0.7.2/cog.desktop.orig	2004-08-13 21:10:35.000000000 +0200
++++ cog-0.7.2/cog.desktop	2004-08-28 00:40:07.234557680 +0200
+@@ -1,12 +1,16 @@
  [Desktop Entry]
-+Encoding=UTF-8
- Name=COnfigurator for Gnome
+ Name=GNOME Configurator
 +Name[pl]=Konfigurator dla Gnome
- Comment=Edit advanced Gnome settings in an easy way
-+Comment[pl]=Edycja zaawansowanych ustawie≈Ñ Gnome w prosty spos√≥b
+ Comment=Edit advanced GNOME settings
+ Comment[fr] = Configuration facile des options avancÈes de Gnome
++Comment[pl]=Edycja zaawansowanych ustawie≈. GNOME
+ Icon=cog-icon-2-48x48.png
  Exec=cog
--Terminal=0
-+Terminal=false
+ Terminal=false
  Type=Application
--Icon=
-+Icon=cog.png
  StartupNotify=true
- Categories=GNOME;Application;System;
+ Encoding=UTF-8
+-Categories=GNOME;Application;System;X-Red-Hat-Base;
++Categories=GNOME;Application;System;
+ X-Desktop-File-Install-Version=0.4
 +
 +# vi: encoding=utf-8
