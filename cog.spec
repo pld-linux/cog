@@ -2,7 +2,7 @@ Summary:	Configurator for GNOME
 Summary(pl):	Konfigurator dla GNOME
 Name:		cog
 Version:	0.8.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.krakoa.dk/progs/%{name}/%{name}-%{version}.tar.gz
