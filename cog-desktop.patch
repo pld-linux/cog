@@ -14,7 +14,7 @@
  StartupNotify=true
  Encoding=UTF-8
 -Categories=GNOME;Application;System;X-Red-Hat-Base;
-+Categories=GNOME;Application;System;
++Categories=GTK;GNOME;Settings;DesktopSettings;
  X-Desktop-File-Install-Version=0.4
 +
 +# vi: encoding=utf-8
