@@ -1,5 +1,5 @@
-Summary:	Configurator for Gnome
-Summary(pl):	Konfigurator dla Gnome
+Summary:	Configurator for GNOME
+Summary(pl):	Konfigurator dla GNOME
 Name:		cog
 Version:	0.6.0
 Release:	1
@@ -15,11 +15,11 @@ URL:		http://www.krakoa.dk/linux-software.html#COG
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Configurator for Gnome is a program for editing advanced Gnome
+Configurator for GNOME is a program for editing advanced GNOME
 settings in an easy way.
 
 %description -l pl
-Konfigurator dla Gnome umo¿liwia edycjê zaawansowanych ustawieñ Gnome
+Konfigurator dla GNOME umo¿liwia edycjê zaawansowanych ustawieñ GNOME
 w prosty sposób.
 
 %prep
