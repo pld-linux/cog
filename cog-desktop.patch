@@ -1,0 +1,18 @@
+diff -urN aaa/cog-0.6.0/cog.desktop cog-0.6.0/cog.desktop
+--- aaa/cog-0.6.0/cog.desktop	2003-02-23 00:03:31.000000000 +0100
++++ cog-0.6.0/cog.desktop	2003-07-27 19:38:38.000000000 +0200
+@@ -1,9 +1,13 @@
+ [Desktop Entry]
+ Name=COnfigurator for Gnome
++Name[pl]=Konfigurator dla Gnome
+ Comment=Edit advanced Gnome settings in an easy way
++Comment[pl]=Edycja zaawansowanych ustawieñ Gnome w prosty sposób
+ Exec=cog
+ Terminal=0
+ Type=Application
+-Icon=
++Icon=cog.png
+ StartupNotify=true
+ Categories=GNOME;Application;System;
++
++# vi: encoding=utf-8
