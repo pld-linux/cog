@@ -1,12 +1,12 @@
 Summary:	Configurator for GNOME
 Summary(pl):	Konfigurator dla GNOME
 Name:		cog
-Version:	0.6.0
+Version:	0.6.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.krakoa.dk/progs/cog/%{name}-%{version}.tar.gz
-# Source0-md5:	da73828ff44e2cf95549bb4d969d34ac
+Source0:	http://www.krakoa.dk/progs/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	f8283b55a3748d39b51fc46dd297ee13
 Patch0:		%{name}-desktop.patch
 BuildRequires:	GConf2-devel
 BuildRequires:	libglade2-devel
