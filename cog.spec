@@ -1,16 +1,19 @@
 Summary:	Configurator for GNOME
 Summary(pl):	Konfigurator dla GNOME
 Name:		cog
-Version:	0.7.2
+Version:	0.8.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.krakoa.dk/progs/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	f60600d4f1885b10e42a9af8a0c34f3e
+# Source0-md5:	fa6a42b2fa355cf736f661e6ed0589e5
 Patch0:		%{name}-desktop.patch
 BuildRequires:	GConf2-devel >= 2.6.0
-BuildRequires:	libglade2-devel >= 1:2.3.6
+BuildRequires:	gtk+2-devel >= 2:2.4.0
+BuildRequires:	libglade2-devel >= 1:2.4.0
 BuildRequires:	libgnomeui-devel >= 2.6.0
+BuildRequires:	pkgconfig
+Requires:	gtk+2 >= 2:2.4.0
 URL:		http://www.krakoa.dk/linux-software.html#COG
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
