@@ -9,7 +9,8 @@ diff -aurN cog-0.6.0.orig/cog.desktop cog-0.6.0/cog.desktop
  Comment=Edit advanced Gnome settings in an easy way
 +Comment[pl]=Edycja zaawansowanych ustawień Gnome w prosty sposób
  Exec=cog
- Terminal=0
+-Terminal=0
++Terminal=false
  Type=Application
 -Icon=
 +Icon=cog.png
