@@ -1,12 +1,12 @@
 Summary:	Configurator for GNOME
 Summary(pl):	Konfigurator dla GNOME
 Name:		cog
-Version:	0.7.1
+Version:	0.7.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.krakoa.dk/progs/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	5c5dba9a8098f0a1af1fbb4a0922d6eb
+# Source0-md5:	f60600d4f1885b10e42a9af8a0c34f3e
 Patch0:		%{name}-desktop.patch
 BuildRequires:	GConf2-devel >= 2.6.0
 BuildRequires:	libglade2-devel >= 1:2.3.6
@@ -39,10 +39,12 @@ install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 
 install pixmaps/cog-icon-2-48x48.png $RPM_BUILD_ROOT%{_pixmapsdir}/cog.png
 
+%find_lang %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
