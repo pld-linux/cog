@@ -3,10 +3,11 @@
 @@ -1,12 +1,16 @@
  [Desktop Entry]
  Name=GNOME Configurator
-+Name[pl]=Konfigurator dla Gnome
++Name[pl]=Konfigurator dla GNOME
  Comment=Edit advanced GNOME settings
- Comment[fr] = Configuration facile des options avancÈes de Gnome
-+Comment[pl]=Edycja zaawansowanych ustawie≈. GNOME
+-Comment[fr] = Configuration facile des options avancÈes de Gnome
++Comment[fr]=Configuration facile des options avanc√©es de GNOME
++Comment[pl]=Edycja zaawansowanych ustawie≈Ñ GNOME
  Icon=cog-icon-2-48x48.png
  Exec=cog
  Terminal=false
