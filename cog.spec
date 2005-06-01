@@ -8,15 +8,14 @@ Group:		X11/Applications
 Source0:	http://www.krakoa.dk/progs/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	fa6a42b2fa355cf736f661e6ed0589e5
 Patch0:		%{name}-desktop.patch
+URL:		http://www.krakoa.dk/linux-software.html#COG
 BuildRequires:	GConf2-devel >= 2.6.0
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	libglade2-devel >= 1:2.4.0
 BuildRequires:	libgnomeui-devel >= 2.6.0
 BuildRequires:	pkgconfig
-BuildRequires:	popt-devel
 Requires:	gtk+2 >= 2:2.4.0
-URL:		http://www.krakoa.dk/linux-software.html#COG
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
