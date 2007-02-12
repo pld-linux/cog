@@ -1,5 +1,5 @@
 Summary:	Configurator for GNOME
-Summary(pl.UTF-8):   Konfigurator dla GNOME
+Summary(pl.UTF-8):	Konfigurator dla GNOME
 Name:		cog
 Version:	0.8.0
 Release:	3
