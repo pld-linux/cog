@@ -1,5 +1,5 @@
 Summary:	Configurator for GNOME
-Summary(pl):	Konfigurator dla GNOME
+Summary(pl.UTF-8):   Konfigurator dla GNOME
 Name:		cog
 Version:	0.8.0
 Release:	3
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Configurator for GNOME is a program for editing advanced GNOME
 settings in an easy way.
 
-%description -l pl
-Konfigurator dla GNOME umo¿liwia edycjê zaawansowanych ustawieñ GNOME
-w prosty sposób.
+%description -l pl.UTF-8
+Konfigurator dla GNOME umoÅ¼liwia edycjÄ™ zaawansowanych ustawieÅ„ GNOME
+w prosty sposÃ³b.
 
 %prep
 %setup -q
