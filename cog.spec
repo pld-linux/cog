@@ -10,7 +10,7 @@ Source0:	http://www.krakoa.dk/progs/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-desktop.patch
 URL:		http://www.krakoa.dk/linux-software.html#COG
 BuildRequires:	GConf2-devel >= 2.6.0
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	libglade2-devel >= 1:2.4.0
 BuildRequires:	libgnomeui-devel >= 2.6.0
